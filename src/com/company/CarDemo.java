@@ -10,8 +10,9 @@ public class CarDemo {
         myCar.setModel("M3");
         myCar.setColor("Black");
 
-
-
+        System.out.println ("My car's make is " +myCar.getMake());
+        System.out.println ("My car's model is " +myCar.getModel());
+        System.out.println ("My car's color is " +myCar.getColor());
 
     }
 }
